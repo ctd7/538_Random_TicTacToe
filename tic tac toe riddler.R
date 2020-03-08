@@ -67,4 +67,4 @@ wnxt = wnxt[-1,] #  removing initiating rows
 wnot = wnot[-1,]
 drwt = drwt[-1,]
 
-paste(wnx) # outputs answer on Console
+paste(wnx/b) # outputs answer on Console
