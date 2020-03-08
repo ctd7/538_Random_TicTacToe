@@ -12,14 +12,14 @@ If he randomly places all nine pieces in the nine slots on the tic-tac-toe board
 
 This script uses the permuations function within the library gtools to create all the permuations consisting of 5 X's and 4 O's into a matrix and checks for winners with a game board deisgned as such, where the numbers correspond to the column number of each row of the matrix:
 
-# design of the board. Numbers correspond to column number
+design of the board. Numbers correspond to column number
   
-  #       |       |       
-  #   1   |   2   |   3    
-  # ______|_______|_______
-  #       |       |
-  #   4   |   5   |   6
-  # ______|_______|_______
-  #       |       |       
-  #   7   |   8   |   9
-  #       |       |
+       |       |       
+   1   |   2   |   3    
+ ______|_______|_______
+       |       |
+   4   |   5   |   6
+ ______|_______|_______
+       |       |       
+   7   |   8   |   9
+       |       |
