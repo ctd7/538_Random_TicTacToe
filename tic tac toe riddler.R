@@ -17,6 +17,7 @@ wnot = rep(0,9) # keep track of winning permuations for O
 drwt = rep(0,9) # keep track of permutations that draw
 
 for (i in 1:b) {  # for loop to go through all the permutations that have 5 X's and 4 O's to find winners
+                   # for loop could be removed in future iterations, but not resoruce intensive
   
   # design of the board. Numbers correspond to column number
   
